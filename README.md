@@ -2,7 +2,7 @@
 <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/moerill/fvtt-chat-notifications?style=flat-square"> <img alt="GitHub" src="https://img.shields.io/github/license/moerill/fvtt-chat-notifications?style=flat-square"> <img alt="GitHub Releases" src="https://img.shields.io/github/downloads/moerill/fvtt-chat-notifications/latest/total?style=flat-square"> 
 
 Don't want to interrupt your workflow, uncollapsing the sidebar or switching sidebar tabs, just to see the newest roll/message send? Then this module is right for you!  
-When the chat log tab is not active or collapsed, new messages will get shown as toast like notifications. The position. opacity, fade delay, max amount, .. is all customizable from the settings menu.  
+When the chat log tab is not active or collapsed, new messages will get shown as toast like notifications. The position. opacity, fade delay, max amount, .. is all customizable from the settings menu. (on a per user basis!)  
 These notifications are interactable using left- and right-clicks, which results in the chat log being opened, the card being scrolled into view and the element you clicked on being clicked on!
 
 ![](doc/chat-notifications.gif)
