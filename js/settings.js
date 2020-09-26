@@ -10,7 +10,7 @@ export class ChatNotificationSettings extends FormApplication {
       label: 'Settings',
       icon: 'fas fa-mug-hot',
       type: ChatNotificationSettings,
-      restricted: true
+      restricted: false
     });
 
     game.settings.register(moduleName, game.user.id, {
