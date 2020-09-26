@@ -1,0 +1,15 @@
+{
+	"name": "chat-notifications",
+	"title": "Hey, listen! - Chat Notifications",
+	"description": "This module shows notifications of the newest chat messages, when you're currently not viewing the chat tab. Position, opacity, fade delay, ... is all customizable!",
+	"version": "0.0.0",
+  "author": "Moerill",
+  "scripts": ["greensock/dist/TweenMax.min.js"],
+	"esmodules": ["js/index.js"],
+	"styles": ["chat-notifications.css"],
+	"minimumCoreVersion": "0.6.6",
+	"compatibleCoreVersion": "0.7.2",
+	"manifest": "https://gitlab.com/moerills-fvtt-modules/pointer/raw/master/pointer/module.json",
+	"download": "https://gitlab.com/moerills-fvtt-modules/pointer/raw/v1.4.7/pointer.zip",
+	"url": "https://gitlab.com/moerills-fvtt-modules/pointer"
+}
