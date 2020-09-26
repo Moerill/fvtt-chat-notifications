@@ -24,7 +24,8 @@ export class ChatNotificationSettings extends FormApplication {
         direction: 'column',
         maxMessages: 3,
         fadeOutDelay: 3,
-        opacity: 1
+        opacity: 1,
+        anchor: 'bottom'
       },
       onChange: data => {
         const el = document.querySelector(`.${moduleName}`);
@@ -50,7 +51,6 @@ export class ChatNotificationSettings extends FormApplication {
       notifs.style.bottom  = 'var(--top)';
       notifs.style.top = null;
     }
-    (new ChatNotificationSettings).render(true);
   }
 
 	static get defaultOptions() {
@@ -101,22 +101,19 @@ export class ChatNotificationSettings extends FormApplication {
     notifications.style.zIndex = this.form.closest('.app')?.style.zIndex - 1;
     const log = document.getElementById('chat-log');
     
-    for (let i = 1; i <= maxMessages; i++)
+    for (let i = 1; i <= maxMessages && i < log.children.length; i++)
       notifications.appendChild(log.children[log.children.length - i].cloneNode(true))
 
   }
 
   _updatePreview() {
     const html = this.form;
-    console.log(this)
-    console.log(html, html.querySelector('[name="top"]'))
     const top = html.querySelector('[name="top"]').value + '%';
     const left = html.querySelector('[name="left"]').value + '%';
     this._notifications.style.setProperty('--top', top);
     this._notifications.style.setProperty('--left', left);
 
     const max = Number(html.querySelector('[name="maxMessages"]').value) || 3;
-    console.log(max, maxMessages)
     if (max != maxMessages) {
       maxMessages = max;
       this._clearPreview(); this._showPreview();    
@@ -129,7 +126,6 @@ export class ChatNotificationSettings extends FormApplication {
     this._notifications.style.setProperty('--opacity', opacity);
 
     const anchor = html.querySelector('[name="anchor"]').value;
-    console.log(anchor);
     if (anchor === 'top') {
       this._notifications.style.top  = 'var(--top)';
       this._notifications.style.bottom = null;
@@ -151,7 +147,7 @@ export class ChatNotificationSettings extends FormApplication {
 
 	getData() {
 		let data = super.getData();
-		data.settings = this.getSettingsData();
+    data.settings = this.getSettingsData();
 		return data;
   }
   

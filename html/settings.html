@@ -7,9 +7,9 @@
 	<section class='tab' data-tab='Info'>
     <h2>General</h2>
     <ul>
-      <li><a href="https://github.com/Moerill/fvtt-hey-listen/issues">Bugs? Create an issue here.</a></li>
-      <li><a href="https://github.com/Moerill/fvtt-hey-listen/blob/master/CHANGELOG.md">Changelog</a></li>
-      <li><a href="https://github.com/Moerill/fvtt-hey-listen">More Info</a></li>
+      <li><a href="https://github.com/Moerill/fvtt-chat-notifications/issues">Bugs? Create an issue here.</a></li>
+      <li><a href="https://github.com/Moerill/fvtt-chat-notifications/blob/master/CHANGELOG.md">Changelog</a></li>
+      <li><a href="https://github.com/Moerill/fvtt-chat-notifications">More Info</a></li>
     </ul>
 	</section>
 	<section class='tab' data-tab='Basic'>
@@ -19,8 +19,8 @@
         <div class='input-group-col'>
           <select data-dtype='String' name='anchor'>
             {{#select settings.anchor}}
-            <option value='top'>top [%]</option>
-            <option value='bottom'>bottom [%]</option>
+            <option value="top">top [%]</option>
+            <option value="bottom">bottom [%]</option>
             {{/select}}
           </select>
           <input class='perc' type='text' name='top' data-dtype='Number' title='Tip: use your mousewheel to modify the values!' value='{{settings.top}}' min='0' max='100'/>
@@ -43,8 +43,8 @@
       <label>Insert direction</label>
       <select data-dtype='String' name='direction'>
         {{#select settings.direction}}
-        <option value='column'>Newest top</option>
-        <option value='column-reverse'>Newest bottom</option>
+        <option value="column">Newest top</option>
+        <option value="column-reverse">Newest bottom</option>
         {{/select}}
       </select>
     </div>

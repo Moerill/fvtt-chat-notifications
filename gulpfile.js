@@ -13,8 +13,8 @@ const argv = require('yargs').argv;
 const browserSync = require('browser-sync').create();
 
 const moduleName = "chat-notifications";
-const repoBaseUrl = 'https://github.com/Moerill/';
-const rawBaseUrl = 'https://raw.githubusercontent.com/Moerill/'
+const repoBaseUrl = 'https://github.com/Moerill/fvtt-';
+const rawBaseUrl = 'https://raw.githubusercontent.com/Moerill/fvtt-'
 
 function getManifest() {
 	const json = {root: ''};

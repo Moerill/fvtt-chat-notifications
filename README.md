@@ -5,15 +5,7 @@ Don't want to interrupt your workflow, uncollapsing the sidebar or switching sid
 When the chat log tab is not active or collapsed, new messages will get shown as toast like notifications. The position. opacity, fade delay, max amount, .. is all customizable from the settings menu.  
 These notifications are interactable using left- and right-clicks, which results in the chat log being opened, the card being scrolled into view and the element you clicked on being clicked on!
 
-- [Hey, listen! - Chat Notifications](#hey-listen---chat-notifications)
-- [Important Information!](#important-information)
-  - [FVTT Version compatibility](#fvtt-version-compatibility)
-  - [FAQ](#faq)
-    - [Why was my click on a button on the notification unrecognized?](#why-was-my-click-on-a-button-on-the-notification-unrecognized)
-  - [Bug Reporting and Feature Suggestions](#bug-reporting-and-feature-suggestions)
-  - [Licensing](#licensing)
-  - [Support the development](#support-the-development)
-
+![](doc/chat-notifications.gif)
 
 # Important Information!
 ## FVTT Version compatibility
