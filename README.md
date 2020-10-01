@@ -20,7 +20,8 @@ When another application is above the real (not the notification) chat cards but
 ## Bug Reporting and Feature Suggestions
 Go to the [GitHub's issue board](https://github.com/Moerill/Token-Mold/issues) and create an issue with the template fitting to what you want to post and follow its instructions.
 
-**I will only take a quick glance at half hearted bug reports or Discord mentions! Don't expect me to react there!**  
+**I will ignore half-hearted bug reports ignoring the issue template or Discord mentions!**  
+Its not difficult to put at least some effort into something that you want someone else to put their spare time into to fix!  
 
 ## Licensing
 <img alt="GitHub" src="https://img.shields.io/github/license/moerill/token-mold?style=flat-square">
