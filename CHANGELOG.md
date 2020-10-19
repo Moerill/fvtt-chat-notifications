@@ -1,3 +1,8 @@
+# v1.2.0
+
+- *FIX* Now using the new GSAP path introduced in FVTT 0.7.4
+- *FIX*? Disabled the module for FVTTs stream view.
+
 # v1.1.0
 
 - *Fix* chat cards *sometimes* not being the correct size, when images were still being loaded, when rendering. (Solution is that the card will jump to full size, when finishing loading)
