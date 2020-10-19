@@ -1,8 +1,5 @@
-import {ChatNotificationSettings, moduleName, maxMessages, fadeOutDelay} from './settings.js';
-
-Hooks.on('ready', () => {
-  ChatNotificationSettings.init();
-});
+import { ChatNotificationSettings, moduleName, maxMessages, fadeOutDelay } from './settings.js';
+import { TweenMax } from '/scripts/greensock/esm/all.js';
 
 function expandSideBarInstant(sideBar) {
   sideBar.classList.remove('collapsed');
@@ -109,6 +106,8 @@ function removeMessage(node, {time = 0.3, delay = fadeOutDelay}={}) {
 }
 
 Hooks.on('renderChatLog', async (app, html) => {
+	if (document.body.classList.contains('stream')) return;
+
   const chatTab = html[0];
   const div = document.body.appendChild(html[0].querySelector('#chat-log').cloneNode(true));
   div.classList.add(moduleName);
@@ -124,5 +123,8 @@ Hooks.on('renderChatLog', async (app, html) => {
     if (chatTab.classList.contains('active') && !chatTab.closest('#sidebar').classList.contains('collapsed')) return;
     const newNode = html[0].cloneNode(true);
     addMessage(newNode);
-  });
-})
+	});
+	
+
+  ChatNotificationSettings.init();
+});
