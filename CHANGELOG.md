@@ -1,3 +1,7 @@
+# v1.2.1
+
+- Moved the GSAP import to be a relative instead of absolute path, to allow for it to work with FoundryInstances running with the routePrefix option. 
+
 # v1.2.0
 
 - *FIX* Now using the new GSAP path introduced in FVTT 0.7.4
