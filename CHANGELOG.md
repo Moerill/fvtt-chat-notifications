@@ -1,3 +1,9 @@
+# v1.2.2
+
+- Changed settings from world to client, so users can save their settings now...
+  - *IMPORTANT* This will reset your settings!
+- bumped compatibel core version
+
 # v1.2.1
 
 - Moved the GSAP import to be a relative instead of absolute path, to allow for it to work with FoundryInstances running with the routePrefix option. 
