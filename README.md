@@ -8,9 +8,9 @@ These notifications are interactable using left- and right-clicks, which results
 ![](doc/chat-notifications.gif)
 
 # Important Information!
-
 ## Maintenance Mode  
-This repository is no longer receiving active attention. I view the Module to be in a stable and feature-complete state, and will be focusing my efforts on other modules. PR's are welcome, and I'll try to investigate bugs and keep the Module up to date with Foundry in a timely manner.  
+This repository is no longer receiving active attention. In my opinion this module is complete and stable, and i'll be focusing my efforts on other modules/stuff. PR's are welcome and i'll try to investigate bugs and keep this module up to date with Foundry, when i find the time to do so.  
+That said, feel free to keep suggesting features, if i find something interesting i may end up implementing it.
 
 ## FVTT Version compatibility
 My focus is the FVTTs stable branch. I will neither promise nor prioritise updates for FVTTs beta or alpha branches! Feel free to report a bug so i know whats coming, but don't expect a fix before a stable FVTT update.
