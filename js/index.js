@@ -109,7 +109,7 @@ Hooks.on('renderChatLog', async (app, html) => {
 	if (document.body.classList.contains('stream')) return;
 
   const chatTab = html[0];
-  const div = document.body.appendChild(html[0].querySelector('#chat-log').cloneNode(true));
+  const div = document.body.appendChild(html[0].querySelector('#chat-log').cloneNode(false));
   div.classList.add(moduleName);
 
   div.addEventListener('click', (ev) => {
