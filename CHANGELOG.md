@@ -1,3 +1,8 @@
+# v1.2.3
+
+- *Fix* all messages to be shown on startup in FVTT 0.8.5+
+	- Thanks to Github User Meltyas for providing this fix!
+
 # v1.2.2
 
 - Changed settings from world to client, so users can save their settings now...
