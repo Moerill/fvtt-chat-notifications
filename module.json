@@ -11,7 +11,7 @@
                 {
                 "name": "baal000",
                 "flags": {}
-                },
+                }
         ],
         "esmodules": ["js/index.js", "greensock/esm/gsap-core.js"],
         "styles": [
