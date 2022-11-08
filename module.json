@@ -2,10 +2,14 @@
         "id": "chat-notifications",
         "title": "Hey, listen! - Chat Notifications",
         "description": "This module shows notifications of the newest chat messages, when you're currently not viewing the chat tab.<br>Position, opacity, fade delay, ... is all customizable!",
-        "version": "1.2.4",
+        "version": "1.2.5",
         "authors": [
                 {
                 "name": "Moerill",
+                "flags": {}
+                },                
+                {
+                "name": "baal000",
                 "flags": {}
                 },
         ],
@@ -17,7 +21,7 @@
                 "minimum": "0.7.9",
                 "verified": "10"
         },
-        "manifest": "https://raw.githubusercontent.com/Moerill/fvtt-chat-notifications/master/module.json",
-        "download": "https://github.com/Moerill/fvtt-chat-notifications/releases/download/v1.2.4/v1.2.4.zip",
-        "url": "https://github.com/Moerill/fvtt-chat-notifications"
+        "manifest": "https://raw.githubusercontent.com/baal000/fvtt-chat-notifications/master/module.json",
+        "download": "https://github.com/baal000/fvtt-chat-notifications/releases/download/v1.2.4/v1.2.4.zip",
+        "url": "https://github.com/baal000/fvtt-chat-notifications"
 }
