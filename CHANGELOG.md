@@ -1,3 +1,7 @@
+# v1.2.4
+
+- v10 compatibility patch thanks to github user @baal000
+
 # v1.2.3
 
 - *Fix* all messages to be shown on startup in FVTT 0.8.5+
