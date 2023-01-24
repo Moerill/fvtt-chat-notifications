@@ -1,5 +1,5 @@
 import { ChatNotificationSettings, moduleName, maxMessages, fadeOutDelay } from './settings.js';
-import { TweenMax } from '../../../../scripts/greensock/esm/gsap-core.js';
+import { TweenMax } from '../../.././scripts/greensock/esm/gsap-core.js';
 
 function expandSideBarInstant(sideBar) {
   sideBar.classList.remove('collapsed');
