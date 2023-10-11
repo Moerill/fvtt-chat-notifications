@@ -19,7 +19,7 @@
         ],
         "compatibility": {
                 "minimum": "0.7.9",
-                "verified": "11+"
+                "verified": "11"
         },
         "manifest": "https://raw.githubusercontent.com/baal000/fvtt-chat-notifications/master/module.json",
         "download": "https://github.com/baal000/fvtt-chat-notifications/releases/download/v1.2.5/v1.2.5.zip",
